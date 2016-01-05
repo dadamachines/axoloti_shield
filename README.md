@@ -7,6 +7,7 @@ First thing is a “Axoloti Shield Footprint”.
 ## TODO
 
 - [ ] Verify and optimise footprint with Johannes
+- [x] Add a example project with eagle .sch and .brd files without footprint to offer more flexibilty in connecting to the board. 
 - [ ] Add more AXOLOTI HARDWARE HACK Resources to the document. (pinout documentation, examples,…)
 
 ## LICENSE 
