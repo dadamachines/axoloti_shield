@@ -8,7 +8,7 @@ The Dimensions are based on the file Johannes released [here](http://community.a
 
 ![Pinout Diagram made by @HerrPaule](https://github.com/HerrPaule/Euxoloti/blob/master/AXOLOTI%20PINOUT%20OVERVIEW/axoloti-gpio-io-v2.jpg)
 
-The Illustrator File was make [Paul](http://irieelectronics.de) and can be found [here.](https://github.com/HerrPaule/Euxoloti/)
+The Illustrator File was made by [Paul](http://irieelectronics.de) and can be found [here.](https://github.com/HerrPaule/Euxoloti/)
 
 
 ## LICENSE 
