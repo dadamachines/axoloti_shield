@@ -8,7 +8,7 @@ The Dimensions are based on the file Johannes released [here](http://community.a
 
 ![Pinout Diagram made by @HerrPaule](https://github.com/HerrPaule/Euxoloti/blob/master/AXOLOTI%20PINOUT%20OVERVIEW/axoloti-gpio-io-v2.jpg)
 
-The Illustrator File can be found [here.](https://github.com/HerrPaule/Euxoloti/)
+The Illustrator File was make [Paul](http://irieelectronics.de) and can be found [here.](https://github.com/HerrPaule/Euxoloti/)
 
 
 ## LICENSE 
@@ -16,4 +16,4 @@ This project is Open Hardware
 All hardware and software design in this project is Creative Commons licensed by Johannes Elias Lohbihler: CC-BY-SA: Attribution / ShareAlike.  
 If you use any work in this project, you should credit me, and you must republish any changes you make under the same license.  
 This license does permit commercial use of these designs, but consider getting in touch before selling anything.  
-This license does not include or imply any connection to the [Axoloti](http://www.axoloti.com) project by @JohannesTaelman. 
+This license does not include or imply any connection to the [Axoloti](http://www.axoloti.com) project by @JohannesTaelman 
