@@ -258,13 +258,13 @@
 <hole x="116" y="10" drill="3"/>
 <hole x="156.6" y="10" drill="3"/>
 <hole x="156.5" y="40" drill="3"/>
-<pad name="VDD1" x="52.07" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDD@1" x="52.07" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PB6" x="54.61" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PB7" x="57.15" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PB8" x="59.69" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PB9" x="62.23" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="GND1" x="64.77" y="1.27" drill="1.016" diameter="1.8796"/>
-<pad name="VDD2" x="67.31" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDD@2" x="67.31" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PC0" x="69.85" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PC1" x="72.39" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="PC2" x="74.93" y="1.27" drill="1.016" diameter="1.8796"/>
@@ -295,53 +295,55 @@
 <pad name="LIN-" x="138.43" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="RIN+" x="140.97" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="RIN-" x="143.51" y="1.27" drill="1.016" diameter="1.8796"/>
-<text x="0" y="-3.81" size="1.778" layer="51" font="vector" ratio="15">Axoloti Core Dimensions</text>
+<text x="158.75" y="13.97" size="1.778" layer="51" font="vector" ratio="15" rot="R90">Axoloti Core</text>
 </package>
 </packages>
 <symbols>
 <symbol name="AXOLOTI_SHIELD">
 <wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="33.02" width="0.254" layer="94"/>
-<wire x1="0" y1="33.02" x2="101.6" y2="33.02" width="0.254" layer="94"/>
-<wire x1="101.6" y1="33.02" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="33.02" x2="96.52" y2="33.02" width="0.254" layer="94"/>
+<wire x1="96.52" y1="33.02" x2="96.52" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
-<pin name="VDD1" x="2.54" y="-5.08" length="middle" rot="R90"/>
-<pin name="PB6" x="5.08" y="-5.08" length="middle" rot="R90"/>
-<pin name="PB7" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="PB9" x="12.7" y="-5.08" length="middle" rot="R90"/>
-<pin name="GND1" x="15.24" y="-5.08" length="middle" rot="R90"/>
-<pin name="VDD2" x="17.78" y="-5.08" length="middle" rot="R90"/>
-<pin name="PC0" x="20.32" y="-5.08" length="middle" rot="R90"/>
-<pin name="PC2" x="25.4" y="-5.08" length="middle" rot="R90"/>
-<pin name="PC3" x="27.94" y="-5.08" length="middle" rot="R90"/>
-<pin name="PC4" x="30.48" y="-5.08" length="middle" rot="R90"/>
-<pin name="PC5" x="33.02" y="-5.08" length="middle" rot="R90"/>
-<pin name="GND2" x="35.56" y="-5.08" length="middle" rot="R90"/>
-<pin name="VDDA1" x="38.1" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA0" x="40.64" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA1" x="43.18" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA2" x="45.72" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA3" x="48.26" y="-5.08" length="middle" rot="R90"/>
-<pin name="GND3" x="50.8" y="-5.08" length="middle" rot="R90"/>
-<pin name="VDDA2" x="53.34" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA4" x="55.88" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA5" x="58.42" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA6" x="60.96" y="-5.08" length="middle" rot="R90"/>
-<pin name="PA7" x="63.5" y="-5.08" length="middle" rot="R90"/>
-<pin name="PB0" x="66.04" y="-5.08" length="middle" rot="R90"/>
-<pin name="PB1" x="68.58" y="-5.08" length="middle" rot="R90"/>
-<pin name="GND4" x="71.12" y="-5.08" length="middle" rot="R90"/>
-<pin name="VDDC1" x="73.66" y="-5.08" length="middle" rot="R90"/>
-<pin name="VDCC2" x="76.2" y="-5.08" length="middle" rot="R90"/>
-<pin name="CM" x="78.74" y="-5.08" length="middle" rot="R90"/>
-<pin name="G1" x="81.28" y="-5.08" length="middle" rot="R90"/>
-<pin name="G2" x="83.82" y="-5.08" length="middle" rot="R90"/>
-<pin name="LIN+" x="86.36" y="-5.08" length="middle" rot="R90"/>
-<pin name="LIN-" x="88.9" y="-5.08" length="middle" rot="R90"/>
-<pin name="RIN+" x="91.44" y="-5.08" length="middle" rot="R90"/>
-<pin name="RIN-" x="93.98" y="-5.08" length="middle" rot="R90"/>
-<pin name="PB8" x="10.16" y="-5.08" length="middle" rot="R90"/>
-<pin name="PC1" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="VDD@1" x="2.54" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PB6" x="5.08" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PB7" x="7.62" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PB9" x="12.7" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="GND@1" x="15.24" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="VDD@2" x="17.78" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PC0" x="20.32" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PC2" x="25.4" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PC3" x="27.94" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PC4" x="30.48" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PC5" x="33.02" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="GND@2" x="35.56" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="VDDA@1" x="38.1" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA0" x="40.64" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA1" x="43.18" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA2" x="45.72" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA3" x="48.26" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="GND@3" x="50.8" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="VDDA@2" x="53.34" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA4" x="55.88" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA5" x="58.42" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA6" x="60.96" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PA7" x="63.5" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PB0" x="66.04" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PB1" x="68.58" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="GND@4" x="71.12" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="VDDC@1" x="73.66" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="VDCC@2" x="76.2" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="CM" x="78.74" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="G@1" x="81.28" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="G@2" x="83.82" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="LIN+" x="86.36" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="LIN-" x="88.9" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="RIN+" x="91.44" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="RIN-" x="93.98" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PB8" x="10.16" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="PC1" x="22.86" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<wire x1="0" y1="0" x2="96.52" y2="0" width="0.254" layer="94"/>
+<text x="93.98" y="10.16" size="1.778" layer="94" font="vector" ratio="15" rot="R90">Axoloti Core</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -353,12 +355,12 @@
 <device name="" package="AXOLOTI_SHIELD">
 <connects>
 <connect gate="G$1" pin="CM" pad="CM"/>
-<connect gate="G$1" pin="G1" pad="G1"/>
-<connect gate="G$1" pin="G2" pad="G2"/>
-<connect gate="G$1" pin="GND1" pad="GND1"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
-<connect gate="G$1" pin="GND3" pad="GND3"/>
-<connect gate="G$1" pin="GND4" pad="GND4"/>
+<connect gate="G$1" pin="G@1" pad="G1"/>
+<connect gate="G$1" pin="G@2" pad="G2"/>
+<connect gate="G$1" pin="GND@1" pad="GND1"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="GND@3" pad="GND3"/>
+<connect gate="G$1" pin="GND@4" pad="GND4"/>
 <connect gate="G$1" pin="LIN+" pad="LIN+"/>
 <connect gate="G$1" pin="LIN-" pad="LIN-"/>
 <connect gate="G$1" pin="PA0" pad="PA0"/>
@@ -383,12 +385,12 @@
 <connect gate="G$1" pin="PC5" pad="PC5"/>
 <connect gate="G$1" pin="RIN+" pad="RIN+"/>
 <connect gate="G$1" pin="RIN-" pad="RIN-"/>
-<connect gate="G$1" pin="VDCC2" pad="VDDC2"/>
-<connect gate="G$1" pin="VDD1" pad="VDD1"/>
-<connect gate="G$1" pin="VDD2" pad="VDD2"/>
-<connect gate="G$1" pin="VDDA1" pad="VDDA1"/>
-<connect gate="G$1" pin="VDDA2" pad="VDDA2"/>
-<connect gate="G$1" pin="VDDC1" pad="VDDC1"/>
+<connect gate="G$1" pin="VDCC@2" pad="VDDC2"/>
+<connect gate="G$1" pin="VDD@1" pad="VDD@1"/>
+<connect gate="G$1" pin="VDD@2" pad="VDD@2"/>
+<connect gate="G$1" pin="VDDA@1" pad="VDDA1"/>
+<connect gate="G$1" pin="VDDA@2" pad="VDDA2"/>
+<connect gate="G$1" pin="VDDC@1" pad="VDDC1"/>
 </connects>
 <technologies>
 <technology name=""/>
