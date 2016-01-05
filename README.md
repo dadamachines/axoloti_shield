@@ -1,8 +1,13 @@
-# AXOLOTI DIY 
+# AXOLOTI DIY
 
 This is an unofficial DIY EAGLE Libary for the [Axoloti Core board](http://www.axoloti.com/). It is not authorised or approved by Axoloti.
 
 First thing is a “Axoloti Shield Footprint”.
+
+## TODO
+
+- [ ] Verify and optimise footprint with Johannes
+- [ ] Add more AXOLOTI HARDWARE HACK Resources to the document. (pinout documentation, examples,…)
 
 ## LICENSE 
 This project is Open Hardware  
