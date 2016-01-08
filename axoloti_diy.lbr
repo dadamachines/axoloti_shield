@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -297,6 +297,138 @@
 <pad name="RIN-" x="143.51" y="1.27" drill="1.016" diameter="1.8796"/>
 <text x="158.75" y="13.97" size="1.778" layer="51" font="vector" ratio="15" rot="R90">Axoloti Core</text>
 </package>
+<package name="AXOLOTI_SHIELD_CUTOUT">
+<wire x1="139.7" y1="24.13" x2="139.7" y2="20.32" width="0.2" layer="25"/>
+<wire x1="147.32" y1="24.13" x2="147.32" y2="20.32" width="0.2" layer="25"/>
+<wire x1="154.94" y1="24.13" x2="154.94" y2="20.32" width="0.2" layer="25"/>
+<wire x1="154.94" y1="20.32" x2="147.32" y2="20.32" width="0.2" layer="25"/>
+<wire x1="147.32" y1="20.32" x2="139.7" y2="20.32" width="0.2" layer="25"/>
+<wire x1="139.7" y1="20.32" x2="132.08" y2="20.32" width="0.2" layer="25"/>
+<wire x1="132.08" y1="20.32" x2="132.08" y2="25.71" width="0.2" layer="25"/>
+<wire x1="49" y1="8" x2="49" y2="0" width="2" layer="51"/>
+<wire x1="49" y1="50" x2="49" y2="45" width="2" layer="51"/>
+<wire x1="49" y1="35" x2="49" y2="29" width="2" layer="51"/>
+<text x="52.705" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">VDD</text>
+<text x="55.245" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PB6</text>
+<text x="57.785" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PB7</text>
+<text x="60.325" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PB8</text>
+<text x="62.865" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PB9</text>
+<text x="65.405" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="85.725" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="100.965" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">GND</text>
+<text x="67.945" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">VDD</text>
+<text x="70.485" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PC0</text>
+<text x="73.025" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PC1</text>
+<text x="75.565" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PC2</text>
+<text x="78.105" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PC3</text>
+<text x="80.645" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PC4</text>
+<text x="83.185" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PC5</text>
+<text x="88.265" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">VDDA</text>
+<text x="90.805" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA0</text>
+<text x="93.345" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA1</text>
+<text x="95.885" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA2</text>
+<text x="98.425" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA3</text>
+<text x="103.505" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">VDDA</text>
+<text x="106.045" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA4</text>
+<text x="108.585" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA5</text>
+<text x="111.125" y="2.54" size="1.27" layer="25" font="vector" ratio="15" rot="R90">PA6</text>
+<text x="113.665" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">PA7</text>
+<text x="116.205" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">PB0</text>
+<text x="118.745" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">PB1</text>
+<text x="136.525" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">LIN+</text>
+<text x="139.065" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">LIN-</text>
+<text x="144.145" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">RIN-</text>
+<text x="141.605" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">RIN+</text>
+<text x="128.905" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">CM</text>
+<text x="131.445" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">GND</text>
+<text x="133.985" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">GND</text>
+<text x="121.285" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">GND</text>
+<text x="123.825" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">VDDC</text>
+<text x="126.365" y="2.54" size="1.27" layer="25" font="vector" ratio="18" rot="R90">VDDC</text>
+<text x="154.305" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">R</text>
+<text x="151.765" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">T</text>
+<text x="149.225" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">S</text>
+<text x="141.605" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">S</text>
+<text x="136.525" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">S</text>
+<text x="139.065" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">T</text>
+<text x="144.145" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">T</text>
+<text x="133.985" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">R</text>
+<text x="146.685" y="25.4" size="1.27" layer="26" font="vector" ratio="18" rot="MR0">R</text>
+<text x="145.415" y="5.08" size="1.27" layer="26" font="vector" ratio="18" rot="MR90">ROUT+-</text>
+<text x="147.955" y="5.08" size="1.27" layer="26" font="vector" ratio="18" rot="MR90">LOUT+-</text>
+<text x="150.415" y="5.04" size="1.27" layer="26" font="vector" ratio="18" rot="MR90">GND</text>
+<wire x1="144.78" y1="12.7" x2="144.78" y2="-2.54" width="0.254" layer="48"/>
+<wire x1="144.78" y1="-2.54" x2="152.4" y2="-2.54" width="0.254" layer="48"/>
+<wire x1="152.4" y1="-2.54" x2="152.4" y2="12.7" width="0.254" layer="48"/>
+<wire x1="152.4" y1="12.7" x2="144.78" y2="12.7" width="0.254" layer="48"/>
+<wire x1="152.4" y1="-2.54" x2="154.94" y2="-5.08" width="0.254" layer="48"/>
+<text x="156.21" y="-6.35" size="1.778" layer="48" font="vector" ratio="15">v1.1 only!</text>
+<hole x="3.5" y="10" drill="3"/>
+<hole x="3.5" y="40" drill="3"/>
+<hole x="44" y="10" drill="3"/>
+<hole x="54" y="10" drill="3"/>
+<hole x="54" y="40" drill="3"/>
+<hole x="116" y="10" drill="3"/>
+<hole x="156.6" y="10" drill="3"/>
+<hole x="156.5" y="40" drill="3"/>
+<pad name="VDD@1" x="52.07" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PB6" x="54.61" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PB7" x="57.15" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PB8" x="59.69" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PB9" x="62.23" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="GND1" x="64.77" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDD@2" x="67.31" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PC0" x="69.85" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PC1" x="72.39" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PC2" x="74.93" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PC3" x="77.47" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PC4" x="80.01" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PC5" x="82.55" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="GND2" x="85.09" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDDA1" x="87.63" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA0" x="90.17" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA1" x="92.71" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA2" x="95.25" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA3" x="97.79" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="GND3" x="100.33" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDDA2" x="102.87" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA4" x="105.41" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA5" x="107.95" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA6" x="110.49" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PA7" x="113.03" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PB0" x="115.57" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="PB1" x="118.11" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="GND4" x="120.65" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDDC1" x="123.19" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="VDDC2" x="125.73" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="CM" x="128.27" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="G1" x="130.81" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="G2" x="133.35" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="LIN+" x="135.89" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="LIN-" x="138.43" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="RIN+" x="140.97" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="RIN-" x="143.51" y="1.27" drill="1.016" diameter="1.8796"/>
+<text x="158.75" y="13.97" size="1.778" layer="51" font="vector" ratio="15" rot="R90">Axoloti Core</text>
+<wire x1="3" y1="0" x2="157" y2="0" width="0" layer="20"/>
+<wire x1="157" y1="0" x2="160" y2="3" width="0" layer="20" curve="90"/>
+<wire x1="160" y1="3" x2="160" y2="50" width="0" layer="20"/>
+<wire x1="7.62" y1="50" x2="3" y2="50" width="0" layer="20"/>
+<wire x1="3" y1="50" x2="0" y2="47" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="47" x2="0" y2="3" width="0" layer="20"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="7.62" y1="50" x2="7.62" y2="33.02" width="0" layer="20"/>
+<wire x1="7.62" y1="33.02" x2="49.53" y2="33.02" width="0" layer="20"/>
+<wire x1="49.53" y1="33.02" x2="49.53" y2="50" width="0" layer="20"/>
+<wire x1="68.58" y1="50" x2="68.58" y2="30.48" width="0" layer="20"/>
+<wire x1="76.2" y1="50" x2="76.2" y2="30.48" width="0" layer="20"/>
+<wire x1="49.53" y1="50" x2="68.58" y2="50" width="0" layer="20"/>
+<wire x1="68.58" y1="30.48" x2="76.2" y2="30.48" width="0" layer="20"/>
+<wire x1="76.2" y1="50" x2="113.03" y2="50" width="0" layer="20"/>
+<wire x1="113.03" y1="50" x2="113.03" y2="25.4" width="0" layer="20"/>
+<wire x1="113.03" y1="25.4" x2="152.4" y2="25.4" width="0" layer="20"/>
+<wire x1="152.4" y1="25.4" x2="152.4" y2="50" width="0" layer="20"/>
+<wire x1="152.4" y1="50" x2="160" y2="50" width="0" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AXOLOTI_SHIELD">
@@ -353,6 +485,57 @@
 </gates>
 <devices>
 <device name="" package="AXOLOTI_SHIELD">
+<connects>
+<connect gate="G$1" pin="CM" pad="CM"/>
+<connect gate="G$1" pin="G@1" pad="G1"/>
+<connect gate="G$1" pin="G@2" pad="G2"/>
+<connect gate="G$1" pin="GND@1" pad="GND1"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="GND@3" pad="GND3"/>
+<connect gate="G$1" pin="GND@4" pad="GND4"/>
+<connect gate="G$1" pin="LIN+" pad="LIN+"/>
+<connect gate="G$1" pin="LIN-" pad="LIN-"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA3" pad="PA3"/>
+<connect gate="G$1" pin="PA4" pad="PA4"/>
+<connect gate="G$1" pin="PA5" pad="PA5"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB6" pad="PB6"/>
+<connect gate="G$1" pin="PB7" pad="PB7"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="PC0" pad="PC0"/>
+<connect gate="G$1" pin="PC1" pad="PC1"/>
+<connect gate="G$1" pin="PC2" pad="PC2"/>
+<connect gate="G$1" pin="PC3" pad="PC3"/>
+<connect gate="G$1" pin="PC4" pad="PC4"/>
+<connect gate="G$1" pin="PC5" pad="PC5"/>
+<connect gate="G$1" pin="RIN+" pad="RIN+"/>
+<connect gate="G$1" pin="RIN-" pad="RIN-"/>
+<connect gate="G$1" pin="VDCC@2" pad="VDDC2"/>
+<connect gate="G$1" pin="VDD@1" pad="VDD@1"/>
+<connect gate="G$1" pin="VDD@2" pad="VDD@2"/>
+<connect gate="G$1" pin="VDDA@1" pad="VDDA1"/>
+<connect gate="G$1" pin="VDDA@2" pad="VDDA2"/>
+<connect gate="G$1" pin="VDDC@1" pad="VDDC1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AXOLOTI_SHIELD_CUTOUT">
+<gates>
+<gate name="G$1" symbol="AXOLOTI_SHIELD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AXOLOTI_SHIELD_CUTOUT">
 <connects>
 <connect gate="G$1" pin="CM" pad="CM"/>
 <connect gate="G$1" pin="G@1" pad="G1"/>
